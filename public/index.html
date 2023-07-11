@@ -3,13 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <link href="./output.css" type="text/css" rel="stylesheet" />
     <title>Tailwind</title>
   </head>
   <body>
-    <div id="root">
-      <div class="content-wrapper">
-        <header>header</header>
+    <div id="root"> 
+      <div class="content-wrapper max-w-screen-xl mx-auto text-base px-8 bg-slate-100">
+        <header class="mx-10 py-5">
+          <nav class="flex flex-row justify-between items-center">
+            <div class="logo basis-2/6 cursor-pointer font-bold text-xl">Coffeestyle.</div>
+            <ul class="basis-3/6 flex justify-end items-center text-sm gap-8 text-gray-500 font-medium">
+              <li class= "cf-top-menu-item">
+                <a href="#">HOME</a>
+              </li>
+              <li class= "cf-top-menu-item">
+                <a href="#">PRODUCT</a>
+              </li>
+              <li class= "cf-top-menu-item">
+                <a href="#">ABOUT</a>
+              </li>
+              <li class= "cf-top-menu-item">
+                <a href="#">CONTACT</a>
+              </li>
+              <li class= "cf-top-menu-item">
+                <a href="#">STYLEGUIDE</a>
+              </li>
+            </ul>
+            <ul class="basis-1/6 flex justify-start items-center ml-16 text-gray-500 font-medium">
+              <li class="cf-top-menu-item">
+                <a href="#" class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cf-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                  </svg>
+                  <span class="mx-2">CARD</span>
+                  <span class="cf-badge-circle bg-orange-400 text-white">1</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
         <!-- End heard -->
         <main>
           <div class="slider">slider</div>
