@@ -11,6 +11,7 @@ $ cd <project_dir>
 $ npm run build:css
 $ npm run start:dev
 
-# reference source https://youtube.com/playlist?list=PLP6tw4Zpj-RK9PxvjySFM7jc5aNn_RyLX
+# reference source 
+https://youtube.com/playlist?list=PLP6tw4Zpj-RK9PxvjySFM7jc5aNn_RyLX
 
 Thanks for watching!
