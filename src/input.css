@@ -29,3 +29,7 @@
 .cf-subheadline-deco-lable{
     @apply uppercase mx-4 tracking-widest text-[13px] font-medium text-gray-500 text-center;
 }
+
+.cf-button{
+    @apply  uppercase text-center  bottom-4 px-8 py-4 cursor-pointer hover:bg-opacity-90 text-sm font-medium tracking-tight;
+}
