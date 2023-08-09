@@ -31,5 +31,5 @@
 }
 
 .cf-button{
-    @apply  uppercase text-center text-[13px] px-8 py-4 cursor-pointer hover:bg-opacity-95 text-sm font-medium tracking-tight;
+    @apply  uppercase text-center bottom-4 text-[13px] px-8 py-4 cursor-pointer hover:bg-opacity-95 text-sm font-medium tracking-tight;
 }
